@@ -1,0 +1,21 @@
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-column-size), 20px);
+  grid-template-rows: repeat(var(--grid-row-size), 20px);
+  grid-gap: 5px;
+  background-color: #2195f338;
+  min-width: 600px;
+  min-height: 600px;
+}
+
+.row {
+  border: 1px solid black;
+  width: 1.25em;
+  height: 1.25em;
+}
+
+.cell {
+  border: 1px solid black;
+  width: 1.25em;
+  height: 1.25em;
+}
